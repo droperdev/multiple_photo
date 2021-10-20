@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/multiplePhotoFragment">
+
+    <fragment
+        android:id="@+id/multiplePhotoFragment"
+        android:name="com.droperdev.camera.presentation.ui.MultiplePhotoFragment"
+        android:label="fragment_multiple_photo"
+        tools:layout="@layout/fragment_multiple_photo" />
+</navigation>
